@@ -1,0 +1,12 @@
+.stopPropagation()方法，该方法可以完全阻止事件冒泡
+
+onclick只有在冒泡阶段才触发
+
+e.preventDefault();禁止浏览器默认行为
+var times = now.getTime();//获取的是 1970.1.1到现在 所过的毫秒数
++"=;expires="+ 过期时间
+onsubmit 事件会在表单中的确认按钮被点击时发生。
+
+
+.sort().reverse;倒序
+return window.getComputedStyle ? window.getComputedStyle(obj,null).paddingLeft : obj.currentStyle.paddingLeft; 获取样式  兼容三目写法
