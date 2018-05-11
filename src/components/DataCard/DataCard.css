@@ -1,0 +1,22 @@
+.cardData{
+	display: inline-block;
+	margin-right: 24px;
+	margin-bottom: 10px;
+}
+.cardData .anticon anticon-caret-up{
+	color:'#ddd';
+}
+.gray {
+	color:gray;
+}
+h1{
+	font-size: 30px;
+}
+.cardRatio span{
+	width:20%;
+	display: inline-block;
+}
+.cardRatio i{
+	width: 8%;
+	text-align: center;
+}

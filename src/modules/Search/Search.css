@@ -1,0 +1,31 @@
+/*“科目”这个选择项的样式*/
+.options {
+	display: inline-block;
+	margin-right: 30px;
+}
+/*选项前面的label的样式*/
+.options label, .select label{
+	margin-right: 5px;
+}
+/*保证查询的选项基本上样式统一*/
+.select label{
+	display: inline-block;
+    min-width: 42px;
+}
+/*“查询、重置、更多”按钮的容器样式*/
+.button {
+	width: 170px;
+    margin: 20px auto;
+}
+/*按钮样式*/
+.button button{
+	margin: 0 10px;
+}
+/*“展开”的样式*/
+.extends{
+	margin-top: 20px;
+}
+/*展开后选择器的样式*/
+.select{
+	margin-bottom: 20px;
+}

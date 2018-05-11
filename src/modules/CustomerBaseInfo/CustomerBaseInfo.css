@@ -1,0 +1,21 @@
+/*基本信息行高*/
+.customerBaseInfo {
+	line-height: 40px;
+}
+.customerBaseInfo .inline {
+	display: inline-block;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.customerBaseInfo .ant-col-8, .customerBaseInfo .ant-col-24{
+	display: flex;
+}
+.customerBaseInfo .ant-col-8 .inline {
+	flex: 0.95;
+}
+.customerBaseInfo .ant-col-24 .inline {
+	flex: 1;
+}
+.customerBaseInfo .text-top{
+	vertical-align: top;
+}

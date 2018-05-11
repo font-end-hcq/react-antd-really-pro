@@ -1,0 +1,33 @@
+.productCreate form{
+	margin-top: 30px;
+}
+.productCreate .ant-input-number:hover .ant-input-number-handler-wrap{
+	display: none;
+}
+/*图片上传时隐藏英文文字*/
+/*.productCreate .ant-upload-list-item-uploading-text{
+	display: none;
+}*/
+/*编辑器大小*/
+.productCreate .ql-container{
+    min-height: 400px!important;
+    max-height: 600px!important;
+}
+.productCreate .ql-editor{
+    min-height: 400px!important;
+    max-height: 600px!important;
+}
+/*为了富文本编辑器操作bar行高不受form行高影响*/
+.productCreate .ql-toolbar.ql-snow{
+	line-height: 24px;
+}
+/*按钮居中*/
+.productCreate .center {
+	display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+/*图片上传错误的红框去掉*/
+.productCreate .ant-upload-list-picture-card .ant-upload-list-item-error, .ant-upload-list-picture .ant-upload-list-item-error{
+    border-color: #d9d9d9;
+}

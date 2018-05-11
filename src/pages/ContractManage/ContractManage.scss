@@ -1,0 +1,284 @@
+$color_border: #ccc;
+
+.contract {
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+
+    .ant-input-group {
+        display: flex;
+
+        span {
+            flex: 0 0 100px;
+        }
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+
+        button {
+            margin: 0 10px;
+        }
+    }
+
+    &__list {
+        margin-top: 20px;
+        ul {
+            display: flex;
+
+            li {
+                flex: 1;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-indent: 0;
+                span {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+        }
+
+        dt {
+            background-color: #fafafa;
+
+            ul {
+                border: 1px solid $color_border;
+                border-width: 1px 0;
+                color: #000;
+            }
+        }
+
+        dd {
+            transition: all 0.5s;
+
+            ul {
+                &:hover {
+                    background-color: #e7f7ff;
+                }
+
+                li {
+                    border-bottom: 1px solid $color_border;
+                    position: relative;
+                }
+            }
+        }
+
+        &+ul {
+            margin-top: 30px;
+            text-align: right;
+        }
+    }
+
+    &__modal {
+        .ant-input-group-wrapper {
+            margin-bottom: 20px;
+        }
+
+        > div {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+
+            span {
+                flex: 0 0 72px;
+                padding-right: 0px;
+            }
+        }
+    }
+}
+
+.list__operate{
+    color: #1890ff;
+}
+
+.list__operate span{
+    position: absolute;
+} 
+
+.list__operate span:first-child{
+    left: 20px;
+    cursor: pointer;
+}
+
+.list__operate span:nth-child(3){
+    right: 20px;
+    cursor: pointer;
+}
+
+ul {
+    margin-bottom: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-padding-start: 0;
+
+    li {
+        list-style: none;
+    }
+}
+
+dl {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+
+    dd {
+        margin-bottom: 0;
+    }
+}
+
+.just__modal > .flex_space{
+    justify-content: space-between;
+}
+.font{
+    text-align: right;
+    margin-right: 10px;
+}
+
+textarea{
+    resize: none;
+}
+
+.ant-upload-list-item .anticon-cross {
+    right: -1px;
+}
+
+.ant-upload-list-item {
+    margin-top: 0px;
+}
+
+.ant-modal-footer {
+    border-top: none;
+}
+
+.modal_box .ant-modal-body {
+    padding: 24px 24px 0px;
+}
+
+.mandatory{
+    position: relative;
+}
+
+.mandatory::before {
+    content: " *";
+    color: #e3504f;
+    font-size: 120%;
+    position: absolute;
+    left: 1px;
+    top: -4px;
+}
+
+.mandatory.label::before {
+    left: 16px;
+}
+
+
+.font_detail{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.detail_con textarea.ant-input{
+    height: 100%;
+    width: 572px;
+}
+
+.date_sign .ant-calendar-picker{
+    width: 236px!important;
+}
+
+.date_sign .ant-calendar-picker-input{
+    width: 236px;
+}
+
+.customerName{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    -webkit-line-clamp: 1;
+    width: 120px;
+    text-align: center;
+    color: rgba(0,0,0,.65);
+    cursor: default;
+}
+
+.customerName:hover {
+    color: rgba(0,0,0,.65);
+    outline: 0;
+    text-decoration: none;
+}
+
+.customerName:active {
+    color: rgba(0,0,0,.65);
+    outline: 0;
+    text-decoration: none;
+}
+
+.text_overflow{
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.alawys{
+    margin-right: 20px;
+    width: 250px;
+}
+
+.alawys .ant-select{
+    width: 236px;
+}
+
+.alawys2{
+    width: 250px;
+}
+.alawys2 .ant-select{
+    width: 234px;
+}
+
+.contact_font{
+    width: 158px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.modal_box .look__modal{
+    width: 80%;
+    margin: auto;
+}
+
+.look__modal > div{
+    justify-content: space-between;
+}
+
+.look__modal > div:last-child{
+    margin-bottom:0;
+    justify-content: normal!important;
+}
+
+.contract__modal .change_font{
+    align-items: baseline;
+    justify-content: baseline;
+    width: 100%;
+    max-height: 150px;
+}
+
+.contract__modal .change_detail{
+    align-items: baseline;
+    justify-content: baseline;
+    width: 606px;
+    height: 20px;
+}
+
+.contract__modal .change_detail .font_detail{
+    overflow: hidden;
+}
+
+.contract__modal .change_font .font_detail{
+    max-height: 150px;
+}

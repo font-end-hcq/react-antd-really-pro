@@ -1,0 +1,123 @@
+.report .tableTop{
+    width: 100%;
+    display: inline-flex;
+    justify-content:space-between;
+    margin: 12px 0;
+
+}
+.report .ant-table-header{
+    background: #fff;
+    border-top: 1px solid #e8e8e8;
+}
+.report .ant-table-thead>tr>th {
+    background: #fff;
+}
+/*右边页面内容*/
+.reportContent {
+	background: #fff;
+	padding: 24px;
+	min-height: 800px;
+}
+/*侧边栏导航*/
+.reportSlider {
+	background: #fff;
+	min-height: 800px;
+}
+
+
+/* tab css  */
+
+.ztfx .ant-calendar-picker-input, .ant-select-selection{
+    margin-top: 0px;
+}
+.bd_ccc{
+    border: 1px solid #ccc;
+}
+.ztfx-t{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+.dateselector{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    left: -16px;
+}
+
+.ztfx .ant-select-selection {
+    border-radius: 0;
+    border: 0;
+    font-size: 14px;
+    width: 100px;
+    margin-top: 5px;
+    box-shadow: none !important;
+}
+.ztfx .ant-calendar-picker-input {
+    margin-top: 5px;
+    border-radius: 0;
+    border: 0;
+    font-size: 14px;
+    width: 230px;
+    cursor: pointer;
+    box-shadow: none;
+}
+.ztfx .ant-select-lg .ant-select-selection--single{
+    width: 120px;
+}
+.datepicker{
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    left: 342px;
+    top: 58px;
+}
+.ztfx .ant-calendar-picker-clear {
+    display: none;
+    opacity: 0;
+    z-index: 1;
+    color: rgba(0,0,0,.25);
+    background: #fff;
+    pointer-events: none;
+    cursor: pointer;
+}
+
+.dateselector a{
+    float: left;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #222;
+}
+
+.dateselector a.active{
+    color:#096dd9!important;
+}
+
+.dateselector a:active{
+    color: #096dd9!important;
+}
+
+.ant-calendar{
+    top: 5px;
+}
+
+.ztfx-b{
+    width: 100%;
+}
+#CustomizedPie{
+    height: 444px;
+}
+
+.no_data{
+    width: 800px;
+    height: 444px;
+    text-align: center;
+    line-height: 444px;
+    font-size: 24px;
+    color: #ccc;
+}

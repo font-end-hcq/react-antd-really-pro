@@ -1,0 +1,74 @@
+.customer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-width: 800px; 
+    width: 800px;   
+    
+    .ant-input-group-wrapper {
+        margin-bottom: 20px;
+    }
+
+    > div {
+        width: 395px;
+        display: inline-flex;
+        margin: 15px 0;
+        span {
+            flex: 0 0 95px;
+            // padding-right: 5px;
+            padding:4px 5px 0 0;
+            text-align: right;
+            i{
+                color: red;
+                display: inline-block;
+                padding-right: 5px;
+                
+            }
+        }
+       
+    }
+    .ant-divider,h3,.khaddress{
+        width: 100%;
+    }
+    .ant-select-selection{
+        width: 300px;
+    }
+    .khaddress{
+        .ant-select-selection{
+            width: 120px;
+        }
+        .ant-cascader-picker-label{
+            text-align: center;
+            width:285px;
+        }
+        .ant-cascader-picker-clear,.ant-cascader-picker-arrow{
+            top: 55%;
+            color: rgba(0,0,0,.25);
+            padding-right: 0;            
+        }         
+        .ant-cascader-picker{
+            flex: 0 0 305px;
+            margin-top: -4px; 
+        }
+    } 
+    
+  .btns{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      .ant-btn{
+          margin: 20px 20px 0 20px;
+      }
+
+  }
+  .beizhu,.intro{
+    width: 800px;
+    input[type="textarea"]{
+        width: 100%;
+    }
+    label{
+        width: 115px;
+    }
+}
+
+}

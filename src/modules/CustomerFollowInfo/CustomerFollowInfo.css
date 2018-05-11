@@ -1,0 +1,6 @@
+/*添加跟进信息按钮*/
+.addFollow {
+	position: absolute;
+	top: 0;
+	right: 0;
+}

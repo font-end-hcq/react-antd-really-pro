@@ -1,0 +1,8 @@
+/*字体加粗*/
+.bold {
+	font-weight: bold;
+}
+/*“新建”按钮*/
+.newButton {
+	margin-bottom: 10px;
+}

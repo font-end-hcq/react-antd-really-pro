@@ -1,0 +1,28 @@
+.ant-pagination-options-quick-jumper {
+    color: #fff;
+    position: relative;
+
+    &:before {
+        content: '跳至';
+        color: rgba(0, 0, 0, 0.65);
+        font-size: 16px;
+        position: absolute;
+        left: -2px;
+    }
+}
+
+.ant-menu-inline {
+    border-right: 0;
+}
+
+.ant-layout-sider-children {
+    border-right: 1px solid #e8e8e8;
+}
+
+.ant-layout-sider-children {
+    border-right: 1px solid #e8e8e8;
+
+    .ant-menu-inline {
+        border-right: 0;
+    }
+}

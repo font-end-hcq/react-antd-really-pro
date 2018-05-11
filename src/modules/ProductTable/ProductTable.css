@@ -1,0 +1,17 @@
+/*表格中操作的a标签*/
+.productTable .actionButton a{
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.productTable .ellipsis {
+	white-space:nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: inline-block;
+	width: 100px;
+	margin: 0;
+	vertical-align: middle;
+}

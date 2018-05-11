@@ -1,0 +1,29 @@
+/*新增或者编辑时弹窗的各项选择设置*/
+.option {
+	margin-bottom: 10px;
+}
+/*选项input宽度*/
+.option input{
+	width: 200px;
+}
+/*标签内容后面 添加和移除 两个按钮的样式*/
+.option button{
+	font-size: 14px;
+	margin-left: 10px;
+}
+/*每个选项前面的label*/
+.selectTitle {
+	margin-right: 10px;
+	display: inline-block;
+	width: 90px;
+	text-align: right;
+}
+/*标签内容的样式*/
+.labelContent {
+	position: relative;
+	left: 100px;
+	display: inline-block;
+	div{
+		margin-bottom: 10px;
+	}
+}

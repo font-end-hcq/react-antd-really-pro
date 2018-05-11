@@ -1,0 +1,38 @@
+
+.ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected, .ant-menu.ant-menu-dark .ant-menu-item-selected{
+	background-color: initial;
+}
+
+.logo,.right{
+	line-height: 31px;	
+	color: hsla(0,0%,100%,.65);
+	margin: 16px 0;
+    display: inline-flex;
+	i{
+		margin: auto;
+		margin-right: 15px;
+    	font-size: 18px;
+	}
+	span{
+		height: 31px;
+		line-height: 31px;
+		margin-right: 10px;
+		cursor: pointer;
+	}
+}
+.logo {
+	width: 180px;
+	margin: 16px 28px 16px 0;
+	float: left;
+	font-size: 20px;
+	justify-content: center;	
+	flex:1;
+	span{		
+		overflow:hidden;
+		text-overflow:ellipsis;
+		white-space:nowrap;
+	}
+  }
+  .right{
+	  float: right;
+  }

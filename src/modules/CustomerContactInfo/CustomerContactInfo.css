@@ -1,0 +1,35 @@
+/*“添加联系人” 按钮位置*/
+.addContact {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+/*弹窗表单label的位置*/
+.viewContactModal .leftLabel {
+    width: 24%;
+    display: inline-block;
+    text-align: right;
+}
+/*查看弹窗 左边的label样式*/
+.viewContactModal .leftLabel{
+	vertical-align: top;
+}
+/*查看弹窗 右边的label样式*/
+.viewContactModal .rightLabel {
+	width: 65%;
+    display: inline-block;
+}
+/*查看 弹窗的每行间距控制*/
+.viewContactModal .ant-row{
+	margin-bottom: 20px;
+}
+.menu-delete>a[disabled] {
+	color: rgba(0,0,0,.25);
+}
+
+.viewContactModal .inline {
+	display: inline-block;
+    word-wrap: break-word;
+    word-break: break-all;
+    width: 82.5%;
+}

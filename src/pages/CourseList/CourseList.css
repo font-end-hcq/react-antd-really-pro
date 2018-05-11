@@ -1,0 +1,8 @@
+a:focus{
+	text-decoration: none;
+}
+/*表格内课程名称样式*/
+.courseName, .courseName:focus{ 
+	color: rgba(0,0,0,.65);
+    text-decoration: none;
+}

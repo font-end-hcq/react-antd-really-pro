@@ -1,0 +1,29 @@
+p{
+	margin: 0;
+}
+.bold{
+	font-weight: bold;
+}
+.red {
+	color: red;
+}
+.center {
+	text-align: center;
+}
+.customerDetail {
+	position: relative;
+}
+.customerInfo {
+	line-height: 2.15;
+	padding: 0 31px;
+	margin-bottom: 20px;
+}
+.editDetails {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.customerDetail h1 i{
+	color: #1890ff;
+	margin-right: 10px;
+}

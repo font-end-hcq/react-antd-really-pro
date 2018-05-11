@@ -1,0 +1,70 @@
+
+.handleSpan{
+    width: 68px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.handleSpan a{
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.handleSpan a:last-child{
+    margin-bottom: 0px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.bold.bold_left{
+    margin-left: 20px;
+}
+
+tbody tr .record div{
+    width: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto 20px;
+}
+
+tbody tr .record div:last-child{
+    margin-bottom: 0px;
+}
+
+.table thead tr th{
+    background: #F8FAFB;
+}
+
+.mandatory{
+    position: relative;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.mandatory:before {
+    content: " *";
+    color: #e3504f;
+    font-size: 120%;
+    position: absolute;
+    left: 1px;
+    top: -4px;
+}
+
+textarea{
+    resize: none
+}
+
+tbody tr .record div.price{
+    width: 50px;
+}
+
+tbody tr .user div{
+    margin: 0 auto;
+    width: 120px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

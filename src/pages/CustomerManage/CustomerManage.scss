@@ -1,0 +1,57 @@
+.search {
+    width: 100%;
+    .inps{
+            display: inline-block;
+        }
+  }
+.ant-modal{
+    min-width: 650px;    
+}
+.createkh{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+   li{
+        width: 290px;
+        display: inline-flex;
+        margin: 10px 0;
+ 
+        label{
+            height: 40px;
+            line-height: 30px;
+            width: 150px;
+            text-align: right;
+        }
+        i{
+            color: red;
+            display: inline-block;
+            padding-right: 5px;
+        }
+   }
+.beizhu{
+    height: 80px;
+    width: 600px;
+    input[type="textarea"]{
+        width: 100%;
+        height: 100%;
+
+    }
+    label{
+        width: 115px;
+    }
+}
+}
+.ant-modal-footer{
+    padding: 16px;
+}
+.newcreate{
+    margin-bottom: 20px;
+}
+.ant-table-body .khname{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    width: 200px;
+    display: inline-block;
+}
